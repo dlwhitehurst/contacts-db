@@ -1,7 +1,7 @@
 # Derive from official mysql image
 FROM mysql
 
-# Add a database
+# When container fires, the database is created
 ENV MYSQL_DATABASE reference 
 
 # Add the content of the scripts/ directory to your image
